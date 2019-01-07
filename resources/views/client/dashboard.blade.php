@@ -18,7 +18,7 @@
                                 <div class="row">
                                     <div class="col">
                                         <h5 class="card-title text-uppercase text-muted mb-0">Saldo</h5>
-                                        <span class="h2 font-weight-bold mb-0">550</span>
+                                        <span class="h2 font-weight-bold mb-0">335</span>
                                     </div>
                                     <div class="col-auto">
                                         <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
@@ -39,7 +39,7 @@
                                 <div class="row">
                                     <div class="col">
                                         <h5 class="card-title text-uppercase text-muted mb-0">Indicações</h5>
-                                        <span class="h2 font-weight-bold mb-0">30</span>
+                                        <span class="h2 font-weight-bold mb-0">33</span>
                                     </div>
                                     <div class="col-auto">
                                         <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
