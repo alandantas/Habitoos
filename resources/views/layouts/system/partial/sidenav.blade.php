@@ -6,9 +6,24 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="{{route('admin.dashboard')}}">
-            <img src="{{asset('assets/backend/img/brand/blue.png')}}" class="navbar-brand-img" alt="habitoos">
-        </a>
+        @if(Request::is('admin*'))
+            <a class="navbar-brand pt-0" href="{{route('admin.dashboard')}}">
+                <img src="{{asset('assets/backend/img/brand/blue.png')}}" class="navbar-brand-img" alt="habitoos">
+            </a>
+        @endif
+
+        @if(Request::is('client*'))
+            <a class="navbar-brand pt-0" href="{{route('client.dashboard')}}">
+                <img src="{{asset('assets/backend/img/brand/blue.png')}}" class="navbar-brand-img" alt="habitoos">
+            </a>
+        @endif
+
+        @if(Request::is('company*'))
+            <a class="navbar-brand pt-0" href="{{route('company.dashboard')}}">
+                <img src="{{asset('assets/backend/img/brand/blue.png')}}" class="navbar-brand-img" alt="habitoos">
+            </a>
+        @endif
+
         <!-- User -->
         <ul class="nav align-items-center d-md-none">
             <li class="nav-item dropdown">
